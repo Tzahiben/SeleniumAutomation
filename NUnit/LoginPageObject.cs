@@ -23,9 +23,8 @@ namespace NUnit
 
         public void Login(string userName)
         {
-            SeleniumSetMethods.Click(LoginButton);
-            SeleniumSetMethods.EnterText(UserNameField, userName);
+            LoginButton.Click();
+            UserNameField.EnterText(userName);
         }
-
     }
 }

@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace NUnit
 {
-    class SeleniumSetMethods
+    static class SeleniumSetMethods
     {
-        public static void EnterText(IWebElement element, string value)
+        public static void EnterText(this IWebElement element, string value)
         {
             new WebDriverWait(PropertiesCollection.driver, TimeSpan.FromSeconds(10)).Until(ExpectedConditions.ElementToBeClickable(element)).SendKeys(value);
         }
 
-        public static void Click(IWebElement element)
+        public static void Click(this IWebElement element)
         {
             new WebDriverWait(PropertiesCollection.driver, TimeSpan.FromSeconds(10)).Until(ExpectedConditions.ElementToBeClickable(element)).Click();
         }
