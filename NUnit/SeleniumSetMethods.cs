@@ -12,12 +12,12 @@ namespace NUnit
     {
         public static void EnterText(this IWebElement element, string value)
         {
-            new WebDriverWait(PropertiesCollection.driver, TimeSpan.FromSeconds(10)).Until(ExpectedConditions.ElementToBeClickable(element)).SendKeys(value);
+            new WebDriverWait(PropertiesCollection.driver, TimeSpan.FromSeconds(30000)).Until(ExpectedConditions.ElementToBeClickable(element)).SendKeys(value);
         }
 
-        public static void Click(this IWebElement element)
+        public static void ClickButton(this IWebElement element)
         {
-            new WebDriverWait(PropertiesCollection.driver, TimeSpan.FromSeconds(10)).Until(ExpectedConditions.ElementToBeClickable(element)).Click();
+            new WebDriverWait(PropertiesCollection.driver, TimeSpan.FromSeconds(30000)).Until(ExpectedConditions.ElementToBeClickable(element)).Click();
         }
     }
 }

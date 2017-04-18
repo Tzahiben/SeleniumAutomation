@@ -1,10 +1,6 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NUnit
 {
@@ -23,8 +19,9 @@ namespace NUnit
 
         public void Login(string userName)
         {
-            LoginButton.Click();
+            LoginButton.ClickButton();
             UserNameField.EnterText(userName);
+
         }
     }
 }

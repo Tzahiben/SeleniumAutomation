@@ -1,12 +1,7 @@
 ﻿using NUnit.Framework;
-using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NUnit
 {
@@ -20,7 +15,6 @@ namespace NUnit
         public void Initialize()
         {
             PropertiesCollection.driver = new ChromeDriver();
-
             PropertiesCollection.driver.Manage().Window.Maximize();
             PropertiesCollection.driver.Navigate().GoToUrl("https://www.galacasino.com/");
 
@@ -30,8 +24,9 @@ namespace NUnit
         [Test]
         public void ExecuteTest()
         {
+            ExcelLib.PopulateInCollection(@"C:\Users\Tzahi.Ben\Documents\NUnit\Data.xlsx");
             LoginPageObject pageLogin = new LoginPageObject();
-            pageLogin.Login("in2906161");
+            pageLogin.Login(ExcelLib.ReadData(1, "userName"));
 
             Console.WriteLine("Executed tests");
         }
