@@ -1,5 +1,3 @@
-C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\NUnit.exe.config
-C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\NUnit.exe
 C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\NUnit.pdb
 C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\Excel.dll
 C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\ICSharpCode.SharpZipLib.dll
@@ -11,6 +9,8 @@ C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\E
 C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\nunit.framework.xml
 C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\WebDriver.xml
 C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\WebDriver.Support.xml
-C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\obj\Debug\NUnit.exe
 C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\obj\Debug\NUnit.pdb
+C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\NUnit.dll.config
+C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\bin\Debug\NUnit.dll
+C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\obj\Debug\NUnit.dll
 C:\Users\Tzahi.Ben\documents\visual studio 2015\Projects\NUnit\NUnit\obj\Debug\NUnit.csprojResolveAssemblyReference.cache
